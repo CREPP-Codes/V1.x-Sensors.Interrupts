@@ -77,8 +77,5 @@ void loop()
         buttonRightPressed = false;
         Serial.println("Button RIGHT pressed");
     }
-    if (buttonLeftPressed) {
-        buttonLeftPressed = false;
-        Serial.println("Button LEFT pressed");
-    }
+
 }
